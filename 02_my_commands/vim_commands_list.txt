@@ -7,3 +7,35 @@ add the following text on it:
   set cursorcolumn
 
 VIM COMMANDS:
+keyboard arrows (move coursor)
+/INSERT MODE/
+i , a (enter insert mode)
+cmd + v (paste)
+esc (exit insert mode)
+
+/OUT OF INSERT MODE/
+:q (exit without saving, if changes were made, an a warning will appear)
+:q! (exit without saving)
+:w (save changes)
+:wq , :x (save changes and exit)
+:set nu (adds line number)
+:set nu! (remove line number)
+dd (cut line where the coursor is placed)
+p (paste below the coursor)
+yy (copy line)
+o (create new line below and enter insert mode)
+d<number>d (cut the specified number of lines below)
+y<number>y (copy the specified number of lines below)
+u (undo changes)
+ctr + r (redo changes)
+gg (go to the top of the file)
+G (go to the end of the file)
+
+/FIND/
+/ (find text, first match)
+n (next match)
+shift + n (previous match)
+
+/VISUAL MODE/
+v (enter visual mode)
+d (cut selection)
