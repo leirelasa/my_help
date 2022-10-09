@@ -1,0 +1,7 @@
+VIM CONFIGURATION:
+
+syntax on
+set number
+set cursorline
+set cursorcolumn
+set background=dark

@@ -1,11 +1,3 @@
-VIM CONFIG: 
-vim .vimrc (enter configuration vim)
-add the following text on it:
-  syntax on
-  set number
-  set cursorline
-  set cursorcolumn
-
 VIM COMMANDS:
 keyboard arrows (move coursor)
 /INSERT MODE/
