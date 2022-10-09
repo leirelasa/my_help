@@ -1,0 +1,47 @@
+BASIC UNIX COMMANDS:
+/LIST/
+· ls (list the contents of the current directory)
+· ls directoryName (list the contents of a specific directory)
+· ls /path (list the content of an specific directory, based on the written path)
+· ls -a (list the contents, including hidden files and folders)
+· ls -al (list all files and directories including, hidden files and other information like permissions, size, and owner)
+· ls -l fileName (check permissions of a file)
+
+/PARENT DIRECTORY/
+· ~ (abbreviation of the home directory)
+
+/OPEN/
+· open . (open the finder on the current directory)
+· open name (open file or folder)
+· cat fileName (display content of the file)
+
+/PATH/
+· pwd (actual path you are in)
+
+/CLEAR/
+· clear (clear the text on the terminal)
+· cmd + k (same)
+
+/CHANGE DIRECTORY/
+· cd /path (change directory to the specified path)
+· cd .. (change directory to one level up)
+
+/CREATE FILES OR FOLDERS/
+· touch nameFile (create one or more files on the current directory)
+· touch /path/nameFile (create file on a specific path)
+· mkdir nameFolder (create directory)
+
+/MODIFY FILES OR FOLDERS/
+· rm nameFile (remove file permanently)
+· rm -rf (remove directory permanently)
+· mv oldFile newFile (rename file)
+· mv file /path (move file to specific directory)
+· cp file /path (copy file to a directory)
+
+/PERMISSIONS/
+· chmod +x fileName (add execution permission to a file)
+· chmod -x fileName (remove execution permission to a file)
+
+/TEXT EDITORS/
+· vim nameFile (edit file using vim text editor)
+· nano nameFile (edit file using nano text editor)
