@@ -1,0 +1,8 @@
+KEEP YOUR COMMITS ATOMIC:
+When possible, a commit should encompass a single feature, change or fix; we should try to keep each commit focused on a single thing. This makes it much easier to undo or rollback changes later on. It also makes your code or project easier to review. 
+The atomic word is related to something irreducible, a base unit, single component that makes a larger system. 
+
+For example, Colt has made two big changes: 1) change the name Gatsby to Catsby in every file 2) create a MoodBoard folder with photos. In order to maintain the commits atomic, he didn't add every change to the staging area to commit them all. Instead, he added the files with the new name and committed the change of name. Then, he added the MoodBoard file and committed it alone.
+
+COMMIT MESSAGES: PRESENT OR PAST TENSE?
+The Git Documentation recommends that you use the present-tense imperative style.  

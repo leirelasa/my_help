@@ -1,0 +1,6 @@
+GIT DOCUMENTATION:
+We can access the git documentation in https://git-scm.com/
+· REFERENCE MANUAL
+The reference manual is a manual with all the git commands. There is an explanation of what the command does and also, the different options of the command. There are commands that accept options and we type it starting with the symbol - . Besides, we can see some examples of use of the command. 
+· BOOK
+There is also the git book and it contains more explanations. 

@@ -1,0 +1,29 @@
+Git Commit:
+A commit is a checkpoint on a file, so that it's captured in that time. When committing, we add the commit with some explanatory text.
+We need to save the changes on a file first and then, commit. So we can group the main changes together in one commit. 
+It is a multistep process: 1) make files, edit, delete... 2) add changes, group specific changes together 3) commit everything that was previously added.
+
+Git Commands:
+· GIT ADD: add files to staging area. Separate files with space to add multiple files at once (grouping files).
+
+· GIT RM --CACHED <FILE>: We can reverse the addition by typing this command.  
+	When we make changes inside the repository, if we type the git status command we'll see a comment that says there are untracked files and names them. 
+· GIT ADD . : adds to stage all the changes at once, so we don't need to type the names of the files. 
+
+	Differences on terminology:
+	- Working Directory: it's the place we're actually working on our project. In my case: git_repository
+	- Staging Area: this is an intermediate zone. This is where we add the changes before we commit. The got add command adds specific files to the staging area. 
+	- Repository: it's the .git folder that is hidden on the working directory. When we make a commit, we are updating this folder. 
+
+· GIT COMMIT: Running git commit will commit all staged changes. It also opens up a text editor and prompts you for a commit message. This will open the vim editor which is not beginner friendly. 
+· GIT COMMIT -M "MY MESSAGE": in this case we can add directly the message, without using the vim text editor. 
+
+	We use the git command to commit changes from the staging area. When making a commit, we need to provide a commit message that summarizes the changes and work snapshotted in the commit. 
+
+	When we commit the previously added changes, if we type the command git status we'll se the message "working tree clean" which means that everything we've done in the working directory is tracked and up to date. As soon as we change a file, the working tree won't be clean. 
+
+	If we make changes on a previously added file, we'll see a message in git status that says the file has been modified. If we create a new file the message says it's untracked. 
+	We can add both changes, group them up, and then, commit the changes with the message related to the changes that have been made.
+
+· GIT LOG: command to shows the log of commits. For each, we can see the author, the date and the commit message. It also appears the commit hash. To exit git log we need to type the letter q. 
+ 

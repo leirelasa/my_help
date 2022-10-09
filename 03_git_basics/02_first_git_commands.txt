@@ -1,0 +1,9 @@
+Our First Git Commands:
+git status -> gives information on the current status of a git repository and its contents. 
+git init -> creates a new repository. This is something you do once per project. Initialize the repo in the top-level folder containing your project.
+
+The command git init creates an empty Git repository (.git). This is a hidden directory and we can list it on the terminal by typing the command ls -a. This hidden folder starts with a dot, so that's how we can differ the hidden directories. If we delete the .git directory, our git history is gone. 
+
+When we initialize the repo, git is going to track every directory created inside the parent folder that has been set as the repository in the beginning. So everything nested is also added in the directory. 
+
+WE DON'T INIT A REPO INSIDE OF A REPO! Before running git init, use git status to verify that you are not currently inside of a repo. If we accidentally initialize a repo inside of another repo, we can delete the .git file to solve the problem.  

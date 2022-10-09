@@ -1,0 +1,7 @@
+GIT LOG COMMAND: 
+If we want to see the list of commits abbreviated, we can use an option on the git log command.
+
+git log --oneline
+
+This command will give us a much abbreviated commit log list, because it will show the commits in one line.
+ 

@@ -1,0 +1,2 @@
+Git Repository:
+It is a git workspace. Although we've installed git, we need to specify where do we want to use it and when. So, we need to create a git repository. We can have multiple git repositories and will have independent git histories. 

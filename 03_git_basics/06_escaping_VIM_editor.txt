@@ -1,0 +1,19 @@
+VIM:
+VIM is a text editor on the terminal. When we commit and don't add the -m option, it's the default editor that will open to type the commit message. 
+
+To start typing we need to enter the insert mode, by typing i , so that at the bottom-left we'll see -- INSERT -- . 
+
+To exit, first we need to get out of the insert mode by typing the key ESC. Then, we need to exit VIM and there are different ways of doing it, but the most used one is :wq to save and quit. 
+
+CHANGING DEFAULT COMMIT EDITOR:
+We can access the chapter of the Git Book: A3.1 Appendix C: Git Commands - Setup and Config. There we can see different commands to change the default text editor.
+For example, to use Visual Studio Code: git config --global core.editor "code --wait" 
+
+When trying to use it for the first time, we'll get an error, because first we need to make some configuration changes in VSC. 
+
+CONFIGURATION IN VSC:
+Open the command palette on VSC: cmd + shift + p
+Type code and enter in the option Shell Command: Install 'code' command in PATH
+
+Now the commit can be done by using the VSC editor. The terminal will wait til the file is saved and closed. 
+
